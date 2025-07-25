@@ -54,7 +54,7 @@ This repo is your all-in-one guide to mastering **arrays in C++**, starting from
 
 4. Understand logic via comments 🧠
 
-🤝 Contributing
+## 🤝 Contributing
 Pull requests are welcome! 🙌
 You can:
 
@@ -65,3 +65,13 @@ You can:
 - Optimize existing solutions
 
 - Suggest improvements via Issues
+
+
+## ⭐ Support
+If this repository helped you:
+
+- 🌟 Star this repo
+
+- 🔁 Share it with others
+
+- 🗣️ Spread the learning!
