@@ -79,5 +79,5 @@ If this repository helped you:
 
 ## 📬 Contact
 - Have questions or suggestions?
-- Open an issue or reach out via GitHub: Sumit1164
+- Open an issue or reach out via GitHub:    @Sumit1164
 
