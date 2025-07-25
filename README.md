@@ -23,3 +23,28 @@ This repo is your all-in-one guide to mastering **arrays in C++**, starting from
 
 ## 📁 Folder Structure
 
+
+
+---
+
+## 🎯 Who Is This For?
+
+- 🧑‍💻 Beginners learning DSA in C++
+- 🎓 Students preparing for coding interviews
+- 🔁 Developers revising array concepts
+- 👨‍🏫 Trainers teaching DSA fundamentals
+
+---
+
+## 🛠 Technologies Used
+
+- 💻 **Language**: C++
+- 📚 **Concepts**: Arrays, Loops, Algorithms, Problem Solving
+
+---
+
+## 📌 How to Use
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/your-username/array-cpp-practice.git
