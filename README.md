@@ -48,3 +48,20 @@ This repo is your all-in-one guide to mastering **arrays in C++**, starting from
 1. Clone the repo  
    ```bash
    git clone https://github.com/your-username/array-cpp-practice.git
+2. Navigate to a topic folder
+
+3. Open .cpp files in your IDE and run them
+
+4. Understand logic via comments 🧠
+
+🤝 Contributing
+Pull requests are welcome! 🙌
+You can:
+
+- Improve code
+
+- Add new problems
+
+- Optimize existing solutions
+
+- Suggest improvements via Issues
