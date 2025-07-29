@@ -1,3 +1,7 @@
+/*
+
+1- Simple create an array, store some values and prinf array using for loop 
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -8,5 +12,30 @@ int main(){
         add += arr[i];
     }
     cout << add;
+    return 0;
+}
+
+
+2 - Find the smallest value in the given array
+
+*/
+
+#include<iostream>
+#include <climits>
+using namespace std;
+int main(){
+    int arr[7] = {60,78,30,1,4,50,21,};
+    int answer = INT_MAX, i;
+    int ans = INT_MIN;
+    for (i = 0; i < 8; i++ ){
+        if(arr[i] < answer){
+            answer = arr[i];
+        }
+        else if(ans < arr[i]){
+            ans = arr[i];
+        }
+    }
+    cout << "The smallest value is: " << answer << endl;
+    cout << "The largest value is: " << ans;
     return 0;
 }
