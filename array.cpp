@@ -1,6 +1,6 @@
 /*
 
-1- Simple create an array, store some values and prinf array using for loop 
+1- Simple create an array, store some values and prinf array using for loop
 
 #include<iostream>
 using namespace std;
@@ -18,7 +18,7 @@ int main(){
 
 2 - Find the smallest value in the given array
 
-*/
+
 
 #include<iostream>
 #include <climits>
@@ -37,5 +37,25 @@ int main(){
     }
     cout << "The smallest value is: " << answer << endl;
     cout << "The largest value is: " << ans;
+    return 0;
+}
+
+
+// Taking array element from the user
+
+*/
+
+#include<iostream>
+using namespace std;
+int main(){
+    int a;
+    cout << sizeof(a)<<endl;
+    int arr[5];
+    cout << "Enter a number: ";
+    for (int i = 0; i < 5; i++)
+        cin >> arr[i];
+
+    for (int i = 0; i < 5; i++)
+        cout << arr[i] << " ";
     return 0;
 }
