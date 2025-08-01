@@ -91,7 +91,7 @@ int main(){
 
 // Fibonacci Series
 
-*/
+
 
 #include<iostream>
 using namespace std;
@@ -106,4 +106,22 @@ int main(){
     arr[i] = arr[i - 1] + arr[i - 2];
 
     cout << arr[n - 1] << " ";
+}
+
+
+// Rotate array by 1
+
+*/
+#include<iostream>
+using namespace std;
+int main(){
+    int arr[6] = {4, 6, 7, 8, 3, 2};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int last = arr[n - 1];
+    for (int i = n - 2; i >= 0; i--)
+        arr[i + 1] = arr[i];
+    arr[0] = last;
+
+    for (int i = 0; i < 6; i++)
+        cout << arr[i]<< " ";
 }
