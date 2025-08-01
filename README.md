@@ -86,4 +86,4 @@ If this repository helped you:
 ## today solving array problems
 
 1. Search element in array
-2. 
+2. Reverse an array
