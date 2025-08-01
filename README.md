@@ -83,7 +83,7 @@ If this repository helped you:
 
 --- 
 
-## today solving array problems
+## Solving array problems
 
 1. Search element in array
 2. Reverse an array
