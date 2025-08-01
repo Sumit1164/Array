@@ -41,8 +41,31 @@ int main(){
 }
 
 
-
 // Second Max value in given array
 
 
 */
+
+
+#include<iostream>
+#include<climits>
+using namespace std;
+int main(){
+    int arr[7] = {6, 7, 9, 11, 4, 3, 21};
+    int secondMax = INT_MIN;
+    int ans = INT_MIN;
+    for (int i = 0; i < 7; i++){
+        if(arr[i] > secondMax){
+            secondMax = arr[i];
+        } 
+    }
+    for (int i = 0; i < 7; i++)
+    {
+        if (secondMax != arr[i])
+        {
+            ans = max(arr[i], ans);
+        }
+    }
+    cout << ans;
+    return 0;
+}
