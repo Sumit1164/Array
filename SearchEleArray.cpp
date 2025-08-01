@@ -1,4 +1,4 @@
-/**/
+/*
 
 // Search element in array
 
@@ -14,5 +14,18 @@ int main(){
         }
     }
     cout << "Element not found" << endl;
+    return 0;
+}
+
+
+
+// Revesre an array
+
+*/
+
+#include<iostream>
+using namespace std;
+int main(){
+    
     return 0;
 }
