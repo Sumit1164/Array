@@ -1,5 +1,4 @@
 /*
-
 // Search element in array
 
 #include<iostream>
@@ -87,6 +86,7 @@ int main(){
     cout << "Missing Number: " << ans - sum << endl;
     return 0;
 }
+<<<<<<< HEAD
 
 
 // Fibonacci Series

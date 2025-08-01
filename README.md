@@ -89,3 +89,4 @@ If this repository helped you:
 2. Reverse an array
 3. Second Max value in given array
 4. Missing Number in array
+5. Fibonacci Series 
