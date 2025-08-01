@@ -1,12 +1,18 @@
+/**/
+
+// Search element in array
+
 #include<iostream>
 using namespace std;
 int main(){
     int arr[7] = {30, 60, 5, 36, 59, 45, 1};
-    int i, target = 1;
-    for (i = 0; i < 7; i++ ){
+    int target = 1;
+    for (int i = 0; i < 7; i++ ){
         if(arr[i] == target){
-            cout << "This is " << arr[i];
+            cout <<"Index number is : "<<  i << endl;
+            return 0;
         }
     }
-        return 0;
+    cout << "Element not found" << endl;
+    return 0;
 }
