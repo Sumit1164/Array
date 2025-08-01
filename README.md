@@ -88,3 +88,4 @@ If this repository helped you:
 1. Search element in array
 2. Reverse an array
 3. Second Max value in given array
+4. Missing Number in array
