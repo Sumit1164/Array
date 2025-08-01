@@ -43,7 +43,7 @@ int main(){
 
 // Taking array element from the user
 
-*/
+
 
 #include<iostream>
 using namespace std;
@@ -58,4 +58,20 @@ int main(){
     for (int i = 0; i < 5; i++)
         cout << arr[i] << " ";
     return 0;
+}
+
+
+*/
+
+// Array Passing Throught by Function Calling
+
+#include<iostream>
+using namespace std;
+void fun(int a[], int n){
+    for (int i = 0; i < n; i++)
+    cout << a[i]<<" ";
+}
+int main(){
+    int arr[5] = {2, 5, 6, 7, 9};
+    fun(arr, 5);
 }
