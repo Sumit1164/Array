@@ -44,7 +44,7 @@ int main(){
 // Second Max value in given array
 
 
-*/
+
 
 
 #include<iostream>
@@ -57,7 +57,7 @@ int main(){
     for (int i = 0; i < 7; i++){
         if(arr[i] > secondMax){
             secondMax = arr[i];
-        } 
+        }
     }
     for (int i = 0; i < 7; i++)
     {
@@ -67,5 +67,23 @@ int main(){
         }
     }
     cout << ans;
+    return 0;
+}
+
+
+// Missing Number in array
+
+*/
+#include<iostream>
+using namespace std;
+int main(){
+    int arr[] = {1, 3, 4, 5, 6, 7};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int n = size + 1;
+    int sum = 0;
+    for (int i = 0; i < size; i++)
+        sum += arr[i];
+    int ans = n * (n + 1) / 2;
+    cout << "Missing Number: " << ans - sum << endl;
     return 0;
 }
