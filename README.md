@@ -96,4 +96,5 @@ If this repository helped you:
 revision of Time And Space Complexity
 
 ## Sorthing 
- - Selection Sort
+1. Selection Sort
+2. 
