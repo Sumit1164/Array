@@ -26,7 +26,7 @@ int main()
 
 // Taking input from the user 
 
-*/
+
 
 
 #include<iostream>
@@ -55,6 +55,34 @@ int main(){
 
     for (int i = 0; i < n; i++){
         cout << arr[i] <<" ";
+    }
+
+    return 0;
+}
+
+
+*/
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    // bubble sort decresing order
+    int arr[6] = {45, 3, 67, 2, 56, 1};
+    for (int i = 4; i >= 0; i--)
+    {
+        for (int j = 0; j <= i; j++)
+        {
+            if (arr[j] < arr[j + 1])
+            {
+                swap(arr[j], arr[j + 1]);
+            }
+        }
+    }
+
+    for (int i = 0; i < 6; i++)
+    {
+        cout << arr[i]<<" ";
     }
 
     return 0;
