@@ -97,4 +97,5 @@ revision of Time And Space Complexity
 
 ## Sorthing 
 1. Selection Sort
-2. 
+2. Bubble Sort
+3. 
