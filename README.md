@@ -93,9 +93,13 @@ If this repository helped you:
 6. Rotate Array by 1
 
 ## Time and Space Complexity 
-revision of Time And Space Complexity
+revision of Time and Space Complexity
 
 ## Sorthing 
 1. Selection Sort
 2. Bubble Sort
 3. Insertion Sort
+
+
+## Searching 
+1. Binary Search 
